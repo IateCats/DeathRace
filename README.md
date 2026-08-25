@@ -20,7 +20,11 @@ A multiplayer NeoForge minigame mod for Minecraft 1.21.1. Every player receives 
 
 ## Installation
 
-Install NeoForge for Minecraft 1.21.1, then place `deathrace-1.0.1.jar` in the profile's `mods` folder. Every participating client and the server/host should have the mod installed.
+Install NeoForge for Minecraft 1.21.1, then place `deathrace-1.1.0.jar` in the profile's `mods` folder. Every participating client and the server/host should have the mod installed.
+
+## Configuration
+
+The first match creates `config/deathrace.properties`. It controls the winning score, base points, speed bonuses, round delay, close-call window, vote-skip percentage, and enabled challenge IDs. Stop and restart the match after editing it.
 
 ## Build
 
