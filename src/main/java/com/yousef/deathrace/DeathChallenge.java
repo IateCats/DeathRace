@@ -58,7 +58,7 @@ public record DeathChallenge(String id, Component title, Component hint, Predica
             challenge("mob", "Slain by a Mob", "Let any hostile or neutral mob finish you",
                     source -> source.getEntity() instanceof Mob),
             challenge("void", "Fall Out of the World", "Die in the void",
-                    source -> is(source, DamageTypes.OUT_OF_WORLD)),
+                    source -> is(source, DamageTypes.FELL_OUT_OF_WORLD)),
             challenge("border", "World Border", "Die outside the world border",
                     source -> is(source, DamageTypes.OUTSIDE_BORDER)),
             challenge("fly_wall", "Kinetic Energy", "Crash into a wall with an elytra",
